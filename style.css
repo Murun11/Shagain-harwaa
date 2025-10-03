@@ -1,0 +1,67 @@
+body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #9f9393;
+      color: #171717;
+    }
+    header {
+      background: url("https://cdn.ikon.mn/news/2019/7/11/fcc84a_67342988_10210737347701003_8391289196211767296_n_x974.jpg") no-repeat center/cover;
+      color: white;
+      text-align: center;
+      padding: 4rem 1rem;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin: 0;
+      text-shadow: 2px 2px 5px black;
+    }
+    header p {
+      font-size: 1.3rem;
+      text-shadow: 1px 1px 4px black;
+    }
+    nav {
+      background: #333;
+      text-align: center;
+      padding: 0.7rem;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-weight: bold;
+    }
+    section {
+      padding: 2rem;
+      max-width: 1100px;
+      margin: auto;
+    }
+    h2 {
+      color: #2e7d32;
+      margin-bottom: 1rem;
+    }
+    .card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+      margin: 1rem 0;
+      overflow: hidden;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .card img {
+      width: 100%;
+      max-width: 400px;
+      object-fit: cover;
+    }
+    .card-content {
+      padding: 1rem;
+      flex: 1;
+    }
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
